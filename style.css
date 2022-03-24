@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgb(143, 34, 34) ;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 38px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.cabecalho-menu-item {
+    font-family: "sarala", sans-serif;
+    color:antiquewhite;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-foto {
+    height: 120px;
+    border-radius: 100%; 
+    margin-left: 10px auto;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid antiquewhite;
+    margin: 20px auto;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+  
+.conteudo-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+  
+.conteudo-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #eed1ba;
+}
+  
+.conteudo-botao {
+    background-color: #f8bf90;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: antiquewhite;
+}
+  
+.conteudo-botao:hover {
+    background-color: rgba(202, 30, 30, 0.918);
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;  
+}
+  
+.descricao-titulo {
+    border-top: 0.4px solid antiquewhite;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    color: #f8bf90;
+    margin-bottom: 30px;
+}
+  
+.descriçao-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: antiquewhite;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid antiquewhite;
+    margin-bottom: 40px;
+    font-family: "sarala", sans-serif;
+    font-size: 80%;
+    color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+}
+
+.rodape-foto {
+    height: 48px;
+    height: 100px;
+    border-radius: 100%; 
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        border: none;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
